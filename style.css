@@ -1,12 +1,109 @@
-body {
-  font-family: sans-serif;
-  padding: 20px;
+body{
+
+    margin:0;
+    padding:30px;
+
+    background:#f4f6f9;
+
+    font-family:
+    "Hiragino Sans",
+    "Yu Gothic",
+    sans-serif;
+
 }
 
-h1 {
-  color: #0066cc;
+.container{
+
+    max-width:900px;
+
+    margin:auto;
+
 }
 
-button {
-  padding: 8px 16px;
+h1{
+
+    text-align:center;
+
+    color:#2d4059;
+
+}
+
+.version{
+
+    text-align:center;
+
+    color:#888;
+
+    margin-bottom:40px;
+
+}
+
+.card{
+
+    background:white;
+
+    border-radius:10px;
+
+    padding:20px;
+
+    margin-bottom:20px;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+
+}
+
+.card h2{
+
+    margin-top:0;
+
+    color:#2d4059;
+
+}
+
+input[type=file]{
+
+    width:100%;
+
+}
+
+button{
+
+    width:100%;
+
+    padding:18px;
+
+    font-size:18px;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    background:#2d7ff9;
+
+    color:white;
+
+    transition:.2s;
+
+}
+
+button:hover{
+
+    background:#175fd6;
+
+}
+
+#result{
+
+    margin-top:40px;
+
+    background:white;
+
+    border-radius:10px;
+
+    padding:20px;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+
 }
